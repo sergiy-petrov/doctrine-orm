@@ -2,8 +2,6 @@ name: "CI"
 
 on:
   pull_request:
-    branches:
-      - "*.x"
     paths:
       - .github/workflows/continuous-integration.yml
       - ci/**
@@ -35,6 +33,7 @@ jobs:
           - "8.2"
           - "8.3"
           - "8.4"
+          - "8.5"
         dbal-version:
           - "default"
           - "3.7"
@@ -135,6 +134,7 @@ jobs:
           - "8.2"
           - "8.3"
           - "8.4"
+          - "8.5"
         dbal-version:
           - "default"
           - "3.7"
@@ -209,6 +209,7 @@ jobs:
           - "8.2"
           - "8.3"
           - "8.4"
+          - "8.5"
         dbal-version:
           - "default"
           - "3.7"
@@ -276,6 +277,7 @@ jobs:
           - "8.2"
           - "8.3"
           - "8.4"
+          - "8.5"
         dbal-version:
           - "default"
           - "3.7"
